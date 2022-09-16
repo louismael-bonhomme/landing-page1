@@ -1,0 +1,47 @@
+
+#new{
+    font-size: 10rem;
+    color: white;
+    transform: rotate(-90deg);
+    z-index:-100;
+    position: absolute; 
+    left: -840px;
+    bottom: 0%;
+    margin: 0;
+}
+.ari{
+    font-size: 75%;
+    text-align: center;
+}
+#prix{
+    color: white;
+text-align: center;
+margin-top: 6%;
+}
+#ari1{
+    font-size: 130%;
+    text-align: center;
+    color: white;
+    margin: 9%;
+}
+#NS{
+    font-size: 4rem;
+    color: black;
+    position: absolute; top: 25px; left: 100px;
+}
+#VP{
+    font-size: 3rem;
+    color: black;
+    position: absolute; top: 100px; left: 100px;
+}
+.defi{
+    font-size: 100%;
+    color: white;
+}
+
+li{
+    color: white;
+list-style-type: none;
+font-size: 80%;
+font-family: arial;
+}

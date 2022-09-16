@@ -1,0 +1,132 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="CSS/style.css" >
+    </head>
+
+     <body>
+
+        <button id="btn">tot</button>
+        <div class="popup">
+          <button class="cross">close</button>
+          <p> j'ai pas eu le temps de finir </p>
+          <img src="pepe.png">
+
+        </div>
+      <div class="big-container">
+
+        <span id="new">NEW NEW NEW NEW</span>
+        <br><br>
+        <div class="pica">
+            <img class="pic" src="sacai.png" alt="sacai">
+        </div>
+        <br><br><br>
+        <div class="containers">
+          <div class="card shoes">
+            <img id="sacai"  src="sacai2.png" alt="sacai2">
+            <div class="carre"> 
+              <p class="ari"> NEW ARRIVAL</p>
+            </div>
+
+            <a href="https://stockx.com/fr-fr/nike-vaporwaffle-sacai-black-gum">
+              <div class="carre4">
+                <p id="prix"> 420$</p>
+              </div>
+           </a>
+          </div>
+
+
+          <div class="card shoes">
+            <img id="sacai"  src="sacai3.png" alt="sacai3">
+            <div class="carre2"> 
+              <p class="ari"> NEW ARRIVAL</p>
+             </div>
+             <a href="https://stockx.com/fr-fr/nike-vaporwaffle-sacai-sail-gum" target="_blank">
+               <div class="carre5">
+                 <p id="prix"> 410$</p>
+                </div>
+              </a>
+          </div>
+
+
+          <div class="card shoes">
+              <img id="sacai1"  src="sacai4.png" alt="sacai4">
+              <div class="carre3"> 
+                <p class="ari"> NEW ARRIVAL</p>
+              </div>
+              <a href="https://stockx.com/fr-fr/nike-vaporwaffle-sacai-tour-yellow-stadium-green" target="_blank">
+              <div class="carre6">
+                <p id="prix"> 390$</p>
+              </div>
+             </a>
+          </div>
+        </div> 
+
+        <a href="https://stockx.com/fr-fr/nike-vaporwaffle-sacai-sport-fuchsia-game-royal" target="_blank">
+        <div class="carre7">
+          
+          <p id="ari1"> BUY NOW</p>
+        
+        </div>
+       </a>
+        <p id="NS">NEW SACAI</p>
+        <p id="VP">VAPORWAFFLE</p>
+        <br><br><br><br><br>
+        <img id="look" src="looksacai.png" alt="looksacai">
+
+        <div class="card def">
+          <h1>SACAI VAPORWAFFLE</h1>
+          <p class="defi"> Sacai et Nike poursuivront leur fructueux partenariat avec un tout nouveau modèle hybride baptisé Nike Vaporwaffle, aussi appelé sacai x Nike Pegasus Vaporfly.
+
+            La nouvelle silhouette est déclinée dans quatre coloris: Tour Yellow/Stadium Green/Sail, String/Black/Villain Red/Neptune Green, Sail/Sport Fuchsia/Light Bone/Game Royal et Black/Summit White/Pure Platinum.
+            A l’instar des Sacai x Nike LDWaffle ou Blazer Mid, ce modèle continue de jouer sur la dualité, avec une double languette, un double swoosh et un double laçage. Une semelle imposante et avant-gardiste, divisée en plusieurs parties, finalise le design de Chitose Abe.</p>
+        </div>
+
+        
+      </div>
+
+      <div class="fin">
+        
+          <ul>
+           <br>
+           <div class="fin1">
+           <li>CARTES CADEAUX</li>
+           </div>
+           <br>
+           <li>TROUVER UN MAGASIN</li>
+           <br>
+           <li>NIKE JOURNAL</li>
+           <br>
+           <li>DEVENIR MEMBRE</li>
+           <br>
+           <li>RÉDUCTIONS POUR ÉTUDIANTS</li>
+           <br>
+           <li>COMMENTAIRE</li>
+           <br>
+           <li>CODES PROMO</li>
+
+          </ul>
+
+        
+      </div>
+      
+
+     </body>
+
+     <script>
+        const btn = document.querySelector(".fin1")
+        const popup = document.querySelector(".popup")
+        const container = document.querySelector(".big-container")
+        const cross = document.querySelector(".cross")
+
+        btn.addEventListener("click", displayPopup);
+        cross.addEventListener("click", displayPopup);
+
+        function displayPopup() {
+          popup.classList.toggle("active")
+          container.classList.toggle("filter")
+        }
+       
+     </script>
+
+</html>

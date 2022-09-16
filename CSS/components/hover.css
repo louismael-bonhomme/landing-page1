@@ -1,0 +1,35 @@
+
+.carre7:hover{
+    transition: 200ms;
+    background-color: blue;
+    transform: scale(1.1);
+    
+  
+}
+
+    
+
+.carre6:hover{
+    transition: 200ms;
+    background-color: blue;
+    transform: scale(1.1);
+  
+}
+.carre5:hover{
+    transition: 200ms;
+    background-color: blue;
+    transform: scale(1.1);
+  
+}
+.carre4:hover{
+    transition: 200ms;
+    background-color: blue;
+    transform: scale(1.1);
+  
+}
+li:hover{
+   
+   transition: 0ms;
+ font-family: arial black;
+
+}

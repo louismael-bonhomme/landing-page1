@@ -1,0 +1,25 @@
+@import url("components/card.css");
+@import url("components/title.css");
+@import url("components/photo.css");
+@import url("components/position.css");
+@import url("components/container.css");
+@import url("components/police.css");
+@import url("components/popup.css");
+@import url("components/hover.css");
+
+body {
+    background-color:  #b7b7b7; 
+    font-family: Arial black;
+    margin: 0px ;
+   
+
+
+}
+
+
+
+
+
+
+
+

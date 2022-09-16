@@ -1,0 +1,72 @@
+.pica{
+    width: 100%;
+    height: min-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containers{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+}
+#sacai{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sacai1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+.carre{
+    background-color: #cf3131;
+   position: absolute; top: 0px; left: 143px;
+}
+.carre2{
+    background-color: #cf3131;
+   position: absolute; top: 0px; left: 624px;
+}
+.carre3{
+    background-color: #cf3131;
+   position: absolute; top: 0px; left: 1104px;
+}
+.carre4{
+    background-color: #000000;
+   position: absolute; bottom: -20px; left: 190px;
+}
+.carre5{
+    background-color: #000000;
+   position: absolute; bottom: -20px; left: 670px;
+}
+.carre6{
+    background-color: #000000;
+   position: absolute; bottom: -20px; left: 1150px;
+}
+.carre7{
+    background-color: #000000;
+   position: absolute; top: 100px; right: 125px;
+}
+#look{
+   
+    display: flex;
+    position: absolute; top: 900px; left: 143px;
+}
+.def{
+   
+    display: flex;
+    position: absolute; top: 900px; left: 445px;
+}
+.defi{
+   
+    display: flex;
+    position: absolute; top: 120px; left: 10;
+}
